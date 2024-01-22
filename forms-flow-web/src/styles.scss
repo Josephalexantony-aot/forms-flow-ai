@@ -667,7 +667,7 @@ div.upload input[type="file"] {
 }
 
 .searchInvalid {
-  border-color: var(--color-error)!important;
+  border-color: var(--color-danger-ltr)!important;
   background-color: var(--color-white);
 }
 
@@ -702,7 +702,7 @@ div.upload input[type="file"] {
       justify-content: center;
 
       &:hover{
-          background-color: var(--color-error);
+          background-color: var(--color-danger-ltr);
           color: var(--color-white);
       }
   }
